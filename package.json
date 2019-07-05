@@ -1,0 +1,27 @@
+{
+  "name": "blackchaose.dev-lib-boilerplate",
+  "version": "1.0.0",
+  "description": "dev-lib-boilerplate",
+  "main": "devlib.js",
+  "scripts": {
+    "startPHP": "php -S 127.0.0.1:9001 -t public/",
+    "start": "webpack-dev-server --watch-content-base",
+    "watch": "webpack -w src/devlib.js public/js/devlib.js",
+    "build": "webpack-cli --entry <full path to ./src/devlib.js> --output <full path to public devlib.js>"
+  },
+  "author": "nikita.s.kalitin",
+  "license": "MIT",
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ]
+  },
+  "dependencies": {
+    "lodash": "^4.17.11",
+    "webpack": "^4.35.2",
+    "webpack-dev-server": "^3.7.2"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.3.5"
+  }
+}

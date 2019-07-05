@@ -1,0 +1,25 @@
+{
+  "name": "blackchaose.dev-libs-boilerplate.js",
+  "version": "0.0.1",
+  "description": "boilerplate",
+  "main": "dev-lib-boilerplate",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BlackChaose/dev-libs-boilerplate.git"
+  },
+  "keywords": [
+    "boilerplates"
+  ],
+  "author": "nikita kalitin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BlackChaose/dev-libs-boilerplate/issues"
+  },
+  "homepage": "https://github.com/BlackChaose/dev-libs-boilerplate#readme",
+  "dependencies": {
+    "lodash": "^4.17.11"
+  }
+}
