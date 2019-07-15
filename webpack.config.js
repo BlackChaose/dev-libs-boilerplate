@@ -15,5 +15,8 @@ module.exports = {
     watchContentBase: true
   },
     mode: 'development',
-    watch: true
+    watch: true,
+    optimization: {
+			minimize: true
+	}
   };
